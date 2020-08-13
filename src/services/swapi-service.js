@@ -1,4 +1,4 @@
-class SwapiService {
+export default class SwapiService {
   _apiBase = 'http://swapi.dev/api'
 
   async getResource(url) {
